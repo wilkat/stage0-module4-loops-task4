@@ -10,7 +10,7 @@ public class TwoRangesSum {
             System.out.println("last number in row is negative");
         } else {
             for (int i = 0; i <= lastInRow; i++) {
-                if(i <= 5) {
+                if(i <= numberToSkip) {
                     skipSum += i;
                 } else {
                     count += i;
